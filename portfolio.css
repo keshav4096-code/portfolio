@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(14, 23, 43);
+    margin:0;
+}
+
+#header{
+    background-color: rgba(6, 10, 27);
+    padding: 1px 1px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+.name{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.content{
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+}
+
+span{
+    background: linear-gradient(to right,#00aaff,#8a2be2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+img{
+    margin-left: 160px;
+}
+
+#education{
+    background: linear-gradient(to right,#00aaff,#8a2be2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-left: 80px;
+}
+
+#details{
+    color: aliceblue;
+    margin-left: 70px;
+}
+
+.cert{
+    margin-top: 100px;
+    color: #9d7bbd;
+}
+.projects{
+    margin-top: 100px;
+    margin-left: 70px;
+    color: #00aaff;
+}
+
+.project-list{
+    color: aliceblue;
+    margin-left: 70px;
+    line-height: 1.8;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(6, 10, 27);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
