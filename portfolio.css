@@ -74,3 +74,39 @@ footer{
     text-align: center;
     padding: 20px;
 }
+@media (max-width: 768px) {
+
+    .name{
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    img{
+        width: 250px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #education,
+    #details,
+    .projects,
+    .project-list{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
